@@ -1,0 +1,33 @@
+.App__header {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Nav__list {
+  margin-bottom: 3rem;
+}
+
+.Nav__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-decoration: none;
+  background: #111;
+  color: #fff;
+  margin-bottom: 1rem;
+  font-size: 125%;
+  opacity: 0.6;
+  transition: opacity 375ms ease;
+}
+
+.Nav__item:hover {
+  opacity: 1;
+}
+
+.Nav__item i {
+  color: #06f;
+}

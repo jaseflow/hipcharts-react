@@ -1,0 +1,39 @@
+@import "./App.scss";
+@import './components/Builder/Builder';
+@import './components/Search/Search';
+
+body {
+  margin: 0;
+  padding: 2rem 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #222;
+  color: #fff;
+  font-size: 100%;
+  overflow: auto;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.unstyled {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.container {
+  padding: 0 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+h1 {
+  font-size: 3rem;
+}

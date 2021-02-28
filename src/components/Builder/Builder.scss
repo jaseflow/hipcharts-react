@@ -1,0 +1,37 @@
+.Builder__title small {
+  display: block;
+  font-weight: 300;
+  font-size: 70%;
+}
+
+.BuilderItem {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  color: #fff;
+  background: #111;
+  margin-bottom: 0.25rem;
+  border-radius: 1rem;
+  opacity: 0.75;
+  transition: opacity 375ms ease;
+  cursor: pointer;
+}
+
+.BuilderItem:hover {
+  opacity: 1;
+}
+
+.BuilderItem__order {
+  font-weight: 700;
+  margin-right: 1rem;
+  font-style: normal;
+  font-size: 2rem;
+  margin-right: 1em;
+}
+
+.BuilderItem__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
