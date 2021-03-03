@@ -1,13 +1,7 @@
-.Builder__title small {
-  display: block;
-  font-weight: 300;
-  font-size: 70%;
-}
-
 .BuilderItem {
   display: flex;
   align-items: center;
-  padding: 2rem;
+  padding: 1.5rem 2rem;
   color: #fff;
   background: #111;
   margin-bottom: 0.25rem;
@@ -34,4 +28,8 @@
   align-items: center;
   justify-content: space-between;
   flex: 1;
+}
+
+.Builder__title {
+  margin-bottom: 2rem;
 }
